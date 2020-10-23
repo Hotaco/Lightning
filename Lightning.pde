@@ -26,8 +26,6 @@ class Dice
   float myY;
   float mySpeed;
   {
-    
-    roll();
     mySize = (int)(Math.random()*80)+20;
     mySpeed =-mySize/25;
     myX=(int)(Math.random()*500);
