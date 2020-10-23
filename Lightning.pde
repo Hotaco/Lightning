@@ -20,11 +20,11 @@ void draw()
 
 class Dice
 {
-  float mySize;
-  float myX;
-  float num;
-  float myY;
-  float mySpeed;
+  int mySize;
+  int myX;
+  int num;
+  int myY;
+  int mySpeed;
   {
     mySize = (int)(Math.random()*80)+20;
     mySpeed =-mySize/25;
