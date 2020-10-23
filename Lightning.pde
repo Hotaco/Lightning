@@ -25,6 +25,8 @@ class Dice
   int num;
   int myY;
   int mySpeed;
+  
+  Dice()
   {
     mySize = (int)(Math.random()*80)+20;
     mySpeed =-mySize/25;
