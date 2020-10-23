@@ -32,7 +32,7 @@ class Dice
     mySpeed =-mySize/25;
     myX=(int)(Math.random()*500);
     myY=(int)(Math.random()*500);
-    
+    roll();
   }
   void roll()
       {
